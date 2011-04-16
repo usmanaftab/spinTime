@@ -1,0 +1,17 @@
+# build folders
+build/
+dist/
+nbproject/
+s82/
+s113/
+s91/
+
+# log files
+*.log
+
+#netbeans files
+build.xml
+build-before-profiler.xml
+
+#output file
+timetable.xls

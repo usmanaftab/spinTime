@@ -1,0 +1,26 @@
+db.driver= com.mysql.jdbc.Driver
+db.url= jdbc:mysql:///timetable
+db.user= root
+db.password=
+
+business.timetable.simulatedannealingttg.HardParameter.temperature= 4.0
+business.timetable.simulatedannealingttg.HardParameter.terminalTemperature= 0.1
+business.timetable.simulatedannealingttg.HardParameter.alpha= 0.90
+business.timetable.simulatedannealingttg.HardParameter.innerLoopCount= 20
+
+business.timetable.simulatedannealingttg.SoftParameter.temperature= 1.0
+business.timetable.simulatedannealingttg.SoftParameter.terminalTemperature= 0.05
+business.timetable.simulatedannealingttg.SoftParameter.alpha= 0.90
+business.timetable.simulatedannealingttg.SoftParameter.innerLoopCount= 2
+
+business.timetable.constraints.gap.GapManager.minTimeSlotDuration= 01:20:00
+business.timetable.constraints.gap.GapManager.gapBtwTimeSlots= 00:10:00
+
+gui.timetable.GenerateTimeTable= generateTT
+gui.timetable.SpecificConstraint= Specific Constraints
+gui.timetable.GapConstraint= Gap Constraints
+gui.timetable.LimitConstraint= Limit Constraints
+gui.timetable.GeneralConstraint= General Constraints
+gui.timetable.EnclosureConstraint= Enclosure Constraints
+gui.timetable.Migration= Migration
+gui.timetable.CustomizeTimeTable = customizeTT
